@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ActMain!</string>
+    <string name="app_name">BillMinder</string>
+    <!--<string name="username">shawn</string>
+    <string name="password">jackknife</string>
+    <string name="login_url">http://65.28.65.51:85/accounts/login/</string>
+    <string name="index_url">http://65.28.65.51:85/BillMinder/?format=json</string>
+    <string name="payment_url">http://65.28.65.51:85/BillMinder/$ID$/pay</string>-->
+
+    <string name="alternate_title">An alternate title that is long</string>
+    <string name="toggle_title">Toggle title</string>
+
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_share">Share</string>
+    <string name="preferences_title">BillMinder Settings</string>
+    
+</resources>

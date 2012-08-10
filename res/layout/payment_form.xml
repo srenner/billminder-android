@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/payment_form_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+	<TextView
+	    android:id="@+id/tvPaymentAmount"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Payment Amount:" />
+	
+	<EditText
+	    android:id="@+id/etPaymentAmount"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:inputType="numberDecimal" />
+
+
+	<TextView
+	    android:id="@+id/tvConfirmationNumber"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Confirmation Number:" />
+	
+	<EditText
+	    android:id="@+id/etConfirmationNumber"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:inputType="text" />
+	
+		
+	<TextView
+	    android:id="@+id/tvNotes"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Notes:" />
+	
+	<EditText
+	    android:id="@+id/etNotes"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:inputType="textCapSentences"
+	    android:maxLines="2" />
+
+
+	<TextView
+	    android:id="@+id/tvDays"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Remind me again after this many days:" />
+	
+	<EditText
+	    android:id="@+id/etDays"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:inputType="number" />
+</LinearLayout>

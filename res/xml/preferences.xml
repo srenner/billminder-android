@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+    <PreferenceCategory android:title="Credentials">
+		<EditTextPreference
+            android:title="Username"
+            android:key="prefUsername" />
+		<EditTextPreference
+		    android:title="Password"
+		    android:key="prefPassword"
+		    android:inputType="textPassword" />   
+	</PreferenceCategory>                
+ 
+    <PreferenceCategory android:title="URLs">
+ 		<EditTextPreference
+            android:title="Login URL"
+            android:key="prefLoginURL"
+            android:hint="http://example.com/accounts/login/" />
+ 		<EditTextPreference
+            android:title="Index URL"
+            android:key="prefIndexURL"
+            android:hint="http://example.com/BillMinder/" />
+    </PreferenceCategory>  
+ 
+</PreferenceScreen>
